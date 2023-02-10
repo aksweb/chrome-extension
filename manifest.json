@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Manager",
+  "version": "1.0",
+  "icons": {
+    
+    "48": "images/d48.png"
+   
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+    "host_permissions": [
+    "https://developer.chrome.com/*"
+  ],
+  "permissions": [
+    "tabGroups"
+  ]
+}
